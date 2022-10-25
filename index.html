@@ -4,6 +4,14 @@
 </head>
 <html>
     <body>
+		<script language="JavaScript">
+			function cerrar() {
+			var ventana = window.self;
+			ventana.opener = window.self;
+			ventana.close();
+}
+setTimeout('cerrar()',3000); //5000 = 5 segundos.
+</script>
         <p><a href="minecraft:?addExternalServer=CrystalCraft|crystalcraft.ddns.net:25562">Si el juego no se abre automáticamente has click aquí</a></p>
     </body>
 </html>
